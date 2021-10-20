@@ -11,3 +11,22 @@ body {
     margin-top: 100px;
     text-align: left;
 }
+
+.bilder {
+    display: grid;
+    grid-gap: 10px;
+    margin: auto;
+}
+
+.bilder>div {
+    border-style: none;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.bilder>div>img {
+    border: 2px;
+    border-style: none;
+    max-width: 250px;
+    max-height: 200px;
+}
