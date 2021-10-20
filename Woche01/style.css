@@ -28,6 +28,6 @@ body {
 .bilder>div>img {
     border: 2px;
     border-style: none;
-    max-width: 250px;
-    max-height: 200px;
+    max-width: auto;
+    max-height: auto;
 }
